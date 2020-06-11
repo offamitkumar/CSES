@@ -66,7 +66,7 @@ int main(void){
     int t; scanf("%d",&t);
     while(t--){
         long long a,b,c; scanf("%lld %lld %lld",&a,&b,&c);
-        printf("%lld\n",m_pow(a,m_pow(b,c,MOD-1ll)));
+        printf("%lld\n",m_pow(a,m_pow(b,c,MOD-1ll))); // fermat's  little theorem 
     }
 
 //    auto final_time = high_resolution_clock::now();
